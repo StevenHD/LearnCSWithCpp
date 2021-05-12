@@ -5,7 +5,7 @@
 #ifndef MODERNCPP_SUBJECT_H
 #define MODERNCPP_SUBJECT_H
 
-#include "../all.h"
+#include "../../all.h"
 #include "Observer.h"
 
 class Subject

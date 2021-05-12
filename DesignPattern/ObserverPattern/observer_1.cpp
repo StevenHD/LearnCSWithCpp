@@ -2,7 +2,7 @@
 // Created by helianhaodong on 2021/5/7.
 //
 
-#include "../all.h"
+#include "../../all.h"
 
 class A
 {
