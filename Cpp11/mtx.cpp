@@ -8,15 +8,15 @@
 // try_lock()需要增加"判断条件"，直接替代lock()会得不到想要的正确结果
 
 volatile int cnt(0);
-std::mutex mtx;
+std::mutex mtx_;
 
 void increase1kTimes()
 {
     for (int i = 0; i < 1000; i ++ )
     {
-        while (!mtx.try_lock());
+        while (!mtx_.try_lock());
         cnt ++;
-        mtx.unlock();
+        mtx_.unlock();
     }
 }
 

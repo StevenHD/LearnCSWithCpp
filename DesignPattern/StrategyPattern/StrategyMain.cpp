@@ -51,7 +51,7 @@ private:
     Weapon* m_wp;
 };
 
-int main()
+int mainSM()
 {
     Gun g;
     Knife k;
