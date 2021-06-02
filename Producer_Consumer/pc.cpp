@@ -43,7 +43,7 @@ void consumerFunc()
     }
 }
 
-int main()
+int mainPC()
 {
     std::thread producers[2];
     std::thread consumers[2];

@@ -15,6 +15,7 @@
 #include <cstring>      // bzero
 #include <cassert>
 #include <string>
+#include <memory>
 #include <stdio.h>      // perror
 #include <fcntl.h>      // fcntl
 #include <unistd.h>     // fcntl, close
