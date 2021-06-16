@@ -25,8 +25,8 @@ void BeiJingTime::setTime(int hour, int min, int sec)
 
 void BeiJingTime::notify()
 {
-    std::list<Observer*>::iterator itr;
-    for (itr = m_obsvrList.begin(); itr != m_obsvrList.end(); ++ itr)
+    // std::list<Observer*>::iterator itr;
+    for (auto itr = m_obsvrList.begin(); itr != m_obsvrList.end(); ++ itr)
     {
         (*itr)->update(m_hour, m_min, m_sec);
     }

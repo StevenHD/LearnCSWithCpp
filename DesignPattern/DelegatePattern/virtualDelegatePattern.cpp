@@ -75,7 +75,7 @@ private:
     ProxyImage* m_img;
 };
 
-int main()
+int mainVDP()
 {
     Doc d;
     d.show();

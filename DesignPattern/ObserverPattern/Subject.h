@@ -16,7 +16,7 @@ public:
     void registerObserver(Observer* ob);
     void removeObserver(Observer* ob);
 
-    virtual void notify();
+    virtual void notify() = 0;
 
 protected:
     std::list<Observer*> m_obsvrList;

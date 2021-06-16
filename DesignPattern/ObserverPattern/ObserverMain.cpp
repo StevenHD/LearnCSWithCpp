@@ -6,7 +6,7 @@
 #include "LondonTime.h"
 #include "BeiJingTime.h"
 
-int mainOR()
+int mainOBE()
 {
     CanadaTime  ct;
     LondonTime  lt;

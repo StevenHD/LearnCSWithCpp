@@ -24,6 +24,7 @@
 #include <unistd.h>     // write
 #include <sys/uio.h>    // readv
 #include <iostream>
+#include <typeinfo>
 #include <algorithm>
 #include <exception>
 #include <functional>

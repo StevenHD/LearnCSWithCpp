@@ -11,8 +11,9 @@ class BeiJingTime : public Subject
 {
 public:
     BeiJingTime();
-    void dis();
     void notify();
+
+    void dis();
     void setTime(int hour, int min, int sec);
 
 protected:
